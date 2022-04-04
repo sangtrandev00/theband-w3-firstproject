@@ -1,0 +1,112 @@
+
+/* media PC */
+
+@media (min-width: 1024px) {
+    .header__search-mobile {
+        display: none;
+    }
+}
+
+
+/* break point for tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    .header__search-mobile {
+        display: none;
+    }
+}
+
+
+/* break point for mobile */
+
+@media (max-width: 739px) {
+
+
+    .m-s-b-16 {
+        margin-bottom: 16px;
+    }
+    
+    .col-s-full {
+        width: 100%;
+    }
+
+    .header__nav {
+        overflow: hidden;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .js-nav-mobile {
+        
+    }
+
+    .nav-list {
+        width: 100%;
+        background-color: #000;
+    }
+
+    .nav-item {
+        display: block;
+    }
+
+    .nav-item:hover .subnav {
+        position: initial;
+    }
+
+    .nav-item-home {
+       width: 98px;
+    }
+
+    .nav-item-link {
+        display: block;
+        padding: 0px 24px;
+    }
+
+    .slider__content {
+        display: none;
+    }
+
+    .header__search-mobile {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 13px 22px;
+    }
+
+    .header__search-mobile:hover {
+        background-color: #ccc;
+       
+    }
+
+    .header__search-mobile:hover .menu-mobile-icon {
+        color: #000;
+    }
+
+    .menu-mobile-icon {
+        color: #fff;
+    }
+
+    .band-member-image {
+        width: 206px;
+    }
+
+    .form-control {
+        width: 95%;
+        padding: 14px 8px;
+    }
+
+    .form-control-modal {
+        padding: 14px 8px;
+    }
+
+    .contact-btn {
+        padding: 14px 8px;
+    }
+
+    .footer__icon {
+        font-size: 20px;
+        font-size: 24px;
+        margin: 8px;
+    }
+}
