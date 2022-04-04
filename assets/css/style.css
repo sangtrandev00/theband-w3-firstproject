@@ -130,7 +130,7 @@ html {
 
 .slider {
     padding-top: 50%;
-    background-image: url(/assets/img/Slider/new-york-slider.jpg);
+    background-image: url(../img/Slider/new-york-slider.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
